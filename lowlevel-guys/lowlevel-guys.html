@@ -6,11 +6,11 @@
 <body>
 <div class="wrapper">
 	<!-- Our Main Video Element -->
-	<video height="426" width="640" controls autoplay style="width:100px; height:75px;"></video>
+	<video width="640" height="480"  controls autoplay ></video>
 	<!-- a href="#" onclick="App.start('glasses');">Glasses!</a -->
 	<br>
 	<!-- Out Canvas Element for output -->
-	<canvas id="output"  height="426" width="515" ></canvas>
+	<canvas id="output"  width="640" height="480"  ></canvas>
 
 	<div class="colours" style="display:none;">
 		<div id="red">
@@ -30,10 +30,10 @@
 </div>
 
 <script src="https://cdn.bootcss.com/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/ccv.js"></script>
-<script type="text/javascript" src="scripts/face.js"></script>
-<script type="text/javascript" src="scripts/scripts.js"></script>
-<script type="text/javascript" src="scripts/stackblur.js"></script>
+<script type="text/javascript" src="ccv.js"></script>
+<script type="text/javascript" src="face.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+<script type="text/javascript" src="stackblur.js"></script>
 <script type="text/javascript">
 $(function(){
 	App.start('glasses');
