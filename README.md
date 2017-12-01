@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+This demo uses the CCV Javascript Face Detection Library.
 
-You can use the [editor on GitHub](https://github.com/zhangxx2015/fools.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+-------------------------------------------------------------------------------
+To start run App.start()  in your console.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can also pass it a few different effects:
 
-### Markdown
+*App.start('glasses'); // Goofy Glasses example
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+*App.start('green'); // Green Screen effect (there is a hidden max and min sliders you can use to adjust the thresholds)
 
-```markdown
-Syntax highlighted code block
+*App.start('hipster'); // simple pixel manipulation example
 
-# Header 1
-## Header 2
-### Header 3
+*App.start('blur'); // blur example
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+Requires a browser that supports getUserMedia (Opera Labs camera or Chrome Canary)
 
-**Bold** and _Italic_ and `Code` text
+Start Google Chrome Canary with open -a Google\ Chrome\ Canary --args --enable-media-stream  OR enable the flag in about:flags
 
-[Link](url) and ![Image](src)
-```
+--------------------------------------------------------------------------------
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Original links with a stored local video: 
 
-### Jekyll Themes
+Demo Video: http://www.youtube.com/watch?v=YYES9Qd094o&hd=1
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhangxx2015/fools.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Working Demo : http://wesbos.com/demos/html5-face-detection/ 
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Tutorial : http://www.wesbos.com/html5-video-face-detection-canvas-javascript
